@@ -6,3 +6,11 @@
 @import '_sections.scss';
 @import '_variables.scss';
 @import '_reset.scss';
+
+body{
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #666666;
+  position: relative;
+  line-height: 1.5;
+}
