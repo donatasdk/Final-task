@@ -11,10 +11,11 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+
 <header>
     <!--NAVBAR-->
     <div id="topBar">
-        <div class="container-fluid">
+        <div class="container">
             <div class="barLeft pull-left">
                 <ul class="list-inline">
                     <li><i class="ico-globe4"></i><span> English</span></li>
@@ -37,7 +38,7 @@
     </div>
     <div id="menu">
         <nav class="navbar navbar-default">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="navbar-header">
                     <img src="img/logo-dark.png">
                 </div>
@@ -119,13 +120,11 @@
 </section>
 <!--END OF CAROUSEL-->
 <section id="best">
-    <div class="container-fluid">
-        <div class="content">
-            <h2>BEST HTML5 THEME EVER!</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-                in some form, by injected humour of this randomised words which don't look even slightly believable.
-            </p>
-        </div>
+    <div class="container text-center">
+        <h2>BEST HTML5 THEME EVER!</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            in some form, by injected humour of this randomised words which don't look even slightly believable.
+        </p>
     </div>
 </section>
 <section id="superCoding">
@@ -168,7 +167,7 @@
 </section>
 <!-- PROGRESS BARS-->
 <section id="progress">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">
                 <div class="progressContent">
@@ -211,7 +210,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="img/bg_header4.jpg">
+                <img class="img-responsive" src="img/bg_header4.jpg">
             </div>
         </div>
     </div>
@@ -219,6 +218,120 @@
 <!--END OFF PROGRESS BARS SECTIONS-->
 <!--TABS-->
 <section id="tabs">
+    <div class="container">
+        <div class="col-md-6">
+            <h2>WHY CHOOSE US?</h2>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">Quality</a></li>
+                <li><a data-toggle="tab" href="#menu1">Design</a></li>
+                <li><a data-toggle="tab" href="#menu2">Programming</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum has
+                        been the industry standar dummyy text ever since the when an iunesi known.</p>
+                    <ul class="pull-left">
+                        <li><i class="ico-arrow-circle-right"></i> Multiple Layout</li>
+                        <li><i class="ico-arrow-circle-right"></i> Awesome Shortcodes</li>
+                        <li><i class="ico-arrow-circle-right"></i> Browser Compatibility</li>
+                        <li><i class="ico-arrow-circle-right"></i> Easy to Edit Animations</li>
+                        <li><i class="ico-arrow-circle-right"></i> Parallax Effect</li>
+                        <li><i class="ico-arrow-circle-right"></i> Responsive Design</li>
+                        <li><i class="ico-arrow-circle-right"></i> Many Home Page Versions</li>
+                        <li><i class="ico-arrow-circle-right"></i> Many Blog Pages</li>
+                    </ul>
+                    <img class="pull-right" src="img/porto5.jpg">
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum has
+                        been the industry standar dummyy text ever since the when an iunesi known.</p>
+                    <ul class="pull-left">
+                        <li><i class="ico-arrow-circle-right"></i> Multiple Layout</li>
+                        <li><i class="ico-arrow-circle-right"></i> Awesome Shortcodes</li>
+                        <li><i class="ico-arrow-circle-right"></i> Browser Compatibility</li>
+                        <li><i class="ico-arrow-circle-right"></i> Easy to Edit Animations</li>
+                        <li><i class="ico-arrow-circle-right"></i> Parallax Effect</li>
+                        <li><i class="ico-arrow-circle-right"></i> Responsive Design</li>
+                        <li><i class="ico-arrow-circle-right"></i> Many Home Page Versions</li>
+                        <li><i class="ico-arrow-circle-right"></i> Many Blog Pages</li>
+                    </ul>
+                    <img class="pull-right" src="img/porto5.jpg">
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum has
+                        been the industry standar dummyy text ever since the when an iunesi known.</p>
+                    <ul class="pull-left">
+                        <li><i class="ico-arrow-circle-right"></i> Multiple Layout</li>
+                        <li><i class="ico-arrow-circle-right"></i> Awesome Shortcodes</li>
+                        <li><i class="ico-arrow-circle-right"></i> Browser Compatibility</li>
+                        <li><i class="ico-arrow-circle-right"></i> Easy to Edit Animations</li>
+                        <li><i class="ico-arrow-circle-right"></i> Parallax Effect</li>
+                        <li><i class="ico-arrow-circle-right"></i> Responsive Design</li>
+                        <li><i class="ico-arrow-circle-right"></i> Many Home Page Versions</li>
+                        <li><i class="ico-arrow-circle-right"></i> Many Blog Pages</li>
+                    </ul>
+                    <img class="pull-right" src="img/porto5.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2>WHY WORK WITH US?</h2>
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><i class="ico-head">
+                                CUSTOMER SERVICES 24/7</i> </a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">Lorem Ipsum is simply dummy text of the printing and typeseting industry
+                            Lorem in text Ipsum has been the industry standar dummyy text ever since the when an iunesi
+                            known.
+
+                            Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim
+                            sit amet odio vulputate eleifend in in tortor standar dummyy text ever since the when an
+                            iunesi known.
+
+                            Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum
+                            has been the industry standar dummyy text ever since the when an iunesi known.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><i
+                                    class="ico-heart3"></i> INTEGRITY AND HONESTY</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><i
+                                    class="ico-check3"></i>THE BEST SALES ON THE COUNTRY</a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--END OF TABS-->
+<section id="counter">
     
 </section>
 <!-- Bootstrap core JavaScript
